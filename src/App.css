@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+/* styles.css */
+.subtle-starry-background {
+  background: linear-gradient(to right, #292a3e, #3d3e55);
+  background-image: 
+    radial-gradient(2px 2px at 20px 20px, white, rgba(255, 255, 255, 0) 50%),
+    radial-gradient(2px 2px at 80px 80px, white, rgba(255, 255, 255, 0) 50%),
+    radial-gradient(2px 2px at 130px 60px, white, rgba(255, 255, 255, 0) 50%),
+    radial-gradient(2px 2px at 190px 150px, white, rgba(255, 255, 255, 0) 50%);
+  background-size: 200px 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
