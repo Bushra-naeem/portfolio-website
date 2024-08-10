@@ -9,7 +9,6 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
 
 export default function Header() {
   const navRef = useRef();
@@ -79,17 +78,8 @@ export default function Header() {
               Projects
             </li>
           </Link>
-          <Link to="resume" offset={-100} duration={500}>
-            <li
-              className="list-none text-white flex gap-2 cursor-pointer decoration-4 hover:underline hover:underline-offset-8"
-              style={{ textDecorationColor: "#C770F0" }}
-            >
-              <CgFileDocument className="mt-1" />
-              Resume
-            </li>
-          </Link>
           <a
-            href="https://github.com/soumyajit4419/Portfolio"
+            href="https://github.com/Bushra-naeem/portfolio-website"
             target="_blank"
             rel="noopener noreferrer"
             className="flex gap-2 px-6 py-2 rounded text-white"
@@ -141,15 +131,6 @@ export default function Header() {
             >
               <AiOutlineFundProjectionScreen className="mt-1" />
               Projects
-            </li>
-          </Link>
-          <Link to="resume" offset={-100} duration={500}>
-            <li
-              className="list-none flex justify-center my-3 gap-1 text-xl"
-              onClick={handleCloseMenu}
-            >
-              <CgFileDocument className="mt-1" />
-              Resume
             </li>
           </Link>
           <div className="flex justify-center my-3 pb-4">
