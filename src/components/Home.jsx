@@ -36,7 +36,7 @@ export default function Home() {
             <a
               href={pdf}
               target="_blank"
-              download={pdf}
+              download="BushraNaeem - Resume"
               rel="noopener noreferrer"
               className="flex gap-1 text-white rounded-md py-2 px-4 
             lg:py-2 md:px-8 lg:px-14 text-sm md:text-base lg:text-lg"
