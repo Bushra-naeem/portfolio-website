@@ -1,7 +1,7 @@
 import React from "react";
 import laptopImg from "../assets/images/homeImage.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../assets/Bushra Naeem_Resume.pdf";
+import pdf from "../assets/Bushra Naeem - Resume.pdf";
 import { FaLinkedin, FaGithub, FaInstagram, FaPinterest } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
