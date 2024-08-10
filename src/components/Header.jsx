@@ -135,7 +135,7 @@ export default function Header() {
           </Link>
           <div className="flex justify-center my-3 pb-4">
             <a
-              href="https://github.com/soumyajit4419/Portfolio"
+              href="https://github.com/Bushra-naeem/portfolio-website"
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-center gap-2 px-4 py-2 rounded text-white max-w-max"
